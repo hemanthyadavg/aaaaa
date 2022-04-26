@@ -1,0 +1,11 @@
+name: Actions workflow
+
+on: [push]
+
+jobs:
+  run-github-actions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: simple js Action
+        uses: hemanthyadavg/aaaaa@58673834684908a6b85c473ef089b05774506188
+        
